@@ -11,9 +11,6 @@ const Form = () => {
   const changeInput = e => {
     const { name, value } = e.target;
     setState(prev => ({ ...prev, [name]: value }));
-    if (e.length === 0) {
-      e.Currenttarget.value = "Error message";
-    }
   };
   const reset = () => {
     setState({ email: "", password: "", confirmPassword: "" });
@@ -27,16 +24,16 @@ const Form = () => {
     <>
       <FormStyled>
         <form onSubmit={singUPClick} className="form__container">
-          <img src={icon} alt="" />
+          <img src={icon} alt="icon" />
           <h1 className="form__name">Sign Up with email</h1>
           <div>
             <h2 className="form__gender">Gender</h2>
             <FormLogo />
-            <label htmlFor="">
+            <label>
               <h2 className="form__gender"> E-mail</h2>
               <input className="form__input" onChange={changeInput} name="email" value={state.email} type="email" />
             </label>
-            <label htmlFor="">
+            <label>
               <h2 className="form__gender"> Create Password</h2>
               <span className="form__input__container">
                 {" "}
@@ -44,10 +41,9 @@ const Form = () => {
                 <img className="form__input__eye" src={eye} alt="eye" />
               </span>
             </label>
-            <label htmlFor="">
+            <label>
               <h2 className="form__gender"> Confirm Password</h2>
               <span className="form__input__container">
-                {" "}
                 <input
                   className="form__input"
                   onChange={changeInput}

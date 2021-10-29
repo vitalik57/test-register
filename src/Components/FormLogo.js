@@ -12,7 +12,7 @@ const FormLogo = () => {
           <p className="gender__name">Male</p>
         </li>
         <li className="form__svg__container">
-          <svg className="checkoutIcon">
+          <svg className="checkoutIcon_female">
             <use href={sprite + "#icon-female"} />
           </svg>
           <p className="gender__name">Female</p>

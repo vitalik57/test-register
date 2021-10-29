@@ -6,6 +6,13 @@ export const FormStyled = styled.div`
     fill: #5b5b5b;
     padding-top: 10px;
   }
+  .checkoutIcon_female {
+    width: 32px;
+    height: 32px;
+    fill: #5b5b5b;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
   .checkoutIcon:hover {
     fill: #3c9c41;
   }

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react/cjs/react.development";
-import eye from "../logo/eye.png";
-import icon from "../logo/icon.png";
+import eye from "../icons/eye.png";
+import icon from "../icons/icon.png";
 import FormButton from "./FormButton";
 import FormLogo from "./FormLogo";
 import { FormStyled } from "./FormStyled";
@@ -58,20 +58,7 @@ const Form = () => {
                 <img className="form__input__eye" src={eye} alt="eye" />
               </span>
             </label>
-            {/* <label htmlFor="">
-              <h2 className="form__gender"> Confirm Password</h2>
-              <span className="form__input__container">
-                {" "}
-                <input
-                  className={"form__input"}
-                  onChange={changeInput}
-                  name="confirmPassword"
-                  value={state.confirmPassword}
-                  type="password"
-                />{" "}
-                <img className="form__input__eye" src={eye} alt="eye" />
-              </span>
-            </label> */}
+
             <FormButton singUPClick={singUPClick} />
           </div>
         </form>

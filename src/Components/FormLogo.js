@@ -1,5 +1,5 @@
 import React from "react";
-import sprite from "../Components/logosvg/Vector.svg";
+import sprite from "../Components/logo/Vector.svg";
 
 const FormLogo = () => {
   return (

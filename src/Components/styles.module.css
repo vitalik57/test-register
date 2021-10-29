@@ -1,0 +1,89 @@
+  .checkoutIcon {
+ width: 32px
+;
+    height: 32px
+;
+    fill:#5B5B5B;
+    padding-top: 10px
+;
+
+  }
+  .checkoutIcon:hover{
+    fill: blue;
+  }
+
+  .form__container{
+    padding: 16px 25px;
+    text-align: center;
+  }
+  .form__svg{
+    display: flex;
+      align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  padding-top: 8px;
+  }
+  .form__name{
+    padding-top: 25px;
+    margin: 0;
+color:  #5B5B5B;
+font-size: 24px;
+line-height: 29px;
+  }
+  .form__gender{
+    padding-top: 20px;
+    margin: 0;
+        text-align: left;
+        font-style: bold;
+color:  #5B5B5B;
+font-size: 18px;
+line-height: 22px;
+  }
+  .form__input{
+        width: 100%;
+    border-radius: 16px
+;
+height: 50px;
+    border: 1px
+ solid #C1C1C1;
+margin-top: 8px;
+  }
+  .form__svg__container{
+    width: 90px;
+    height: 80px;
+    border: 1px solid rgba(193, 193, 193, 1);
+    border-radius: 16px;
+   
+  }
+.form__svg__container:hover{
+  fill: #3C9C41;
+}
+  .gender__name{
+    margin: 0;
+    padding-top: 8px;
+    color: #5B5B5B;
+  }
+  .form__button{
+    width: 100%;
+    border-radius: 16px
+;
+    background: #3C9C41;
+    border: 0;
+    color: #FFFFFF;
+    height: 50px
+;
+    font-size: 18px;
+    line-height: 22px;
+   margin-top: 20px
+;
+  }
+  .form__comment{
+    margin-top: 16px;
+    color: #5B5B5B;
+  }
+  .form__link{
+    padding-left: 7px;
+    color:#3C9C41;
+  }

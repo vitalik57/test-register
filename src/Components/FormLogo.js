@@ -5,23 +5,38 @@ const FormLogo = () => {
   return (
     <>
       <ul className="form__svg">
-        <li className="form__svg__container">
-          <svg className="checkoutIcon">
-            <use href={sprite + "#icon-male"} />
-          </svg>
-          <p className="gender__name">Male</p>
+        <li class="form__svg__container">
+          <a class="kokos" href="/">
+            <div>
+              {" "}
+              <svg class="checkoutIcon">
+                <use href={sprite + "#icon-male"} />
+              </svg>
+              <p class="form__text"> Male</p>
+            </div>
+          </a>
         </li>
-        <li className="form__svg__container">
-          <svg className="checkoutIcon_female">
-            <use href={sprite + "#icon-female"} />
-          </svg>
-          <p className="gender__name">Female</p>
+        <li class="form__svg__container">
+          <a class="kokos" href="/">
+            <div>
+              {" "}
+              <svg class="checkoutIcon__female">
+                <use href={sprite + "#icon-female"} />
+              </svg>
+              <p class="form__text"> Female</p>
+            </div>
+          </a>
         </li>
-        <li className="form__svg__container">
-          <svg className="checkoutIcon">
-            <use href={sprite + "#icon-other"} />
-          </svg>
-          <p className="gender__name">Outher</p>
+        <li class="form__svg__container">
+          <a class="kokos" href="/">
+            <div>
+              {" "}
+              <svg class="checkoutIcon">
+                <use href={sprite + "#icon-other"} />
+              </svg>
+              <p class="form__text"> Outher</p>
+            </div>
+          </a>
         </li>
       </ul>
     </>
